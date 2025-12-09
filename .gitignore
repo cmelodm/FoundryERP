@@ -1,39 +1,26 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Flutter/Dart
+# Build outputs (exclude to save space)
+/build/
+/.dart_tool/
+.packages
+.pub-cache/
+.pub/
 
-# dependencies
-node_modules/
+# IDE
+.vscode/
+.idea/
+*.iml
 
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+# OS Files
 .DS_Store
-*.pem
+Thumbs.db
 
-# local env files
-.env*.local
+# Logs
+*.log
 
-# typescript
-*.tsbuildinfo
+# Temporary files
+*.tmp
+*.temp
 
-app-example
+# Keep lib/ directory for source code!
+
